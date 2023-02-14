@@ -7,6 +7,7 @@ namespace Targil
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("hello");
             GraduationCertificatesManager studentsManager = new GraduationCertificatesManager();
             Grade[] pupil1Grades = new Grade[] {
                 new Grade("linear", 80),
